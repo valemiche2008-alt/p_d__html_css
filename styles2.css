@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* hace que el tamaño incluya padding y borde */
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif; /* tipo de letra */
+  background: #290909e3; /* fondo oscuro elegante */
+  color: white; /* color del texto */
+}
+
+header {
+  text-align: center; /* centra el texto */
+  padding: 20px; /* espacio interno */
+}
+
+section.fondo {
+  background-image: url("https://wallpapercave.com/wp/1wqQkRW.jpg");
+  height: 100vh; /*  */
+  background-repeat: no-repeat; /* pa que no se repita la img */
+  background-position: center; /* para posicionar la imagen */
+  background-size: cover; /*para que cubra todo y no se deforme  */
+  width: 100%; /* para que ocupe todo el acho  */
+  margin-bottom: 2rem;
+}
+
+
+
+.contenedor img{
+  width: 200px; /* tamaño de cada imagen */
+  height: auto;
+  border-radius: 10px
+  
+}
+
+.start{
+  background-image: url(https://www.shutterstock.com/image-vector/horizontal-hand-drawn-rock-music-260nw-2592339717.jpg);
+  height: 100vh; /*  */
+  background-repeat: no-repeat; /* pa que no se repita la img */
+  background-position: center; /* para posicionar la imagen */
+  background-size: cover; /*para que cubra todo y no se deforme  */
+  width: 100%; /* para que ocupe todo el acho  */
+  margin-bottom: 2rem;
+}
+
+.menu {
+  display: flex; /* pone los elementos en fila (horizontal) */
+  justify-content: center; /* centra el menú */
+  list-style: none; /* quita los puntos de la lista */
+  gap: 20px; /* espacio entre cada opción */
+  margin-top: 10px; /* separación con el título */
+}
+
+.menu a {
+  color: white; 
+  text-decoration: none; /* quita el subrayado */
+}
+
+
+.lista {
+  display: flex; /* se pone en horizontal */
+  justify-content: center; /* centra horizontal */
+  list-style: none; /* quita los puntos*/
+  gap: 60px; /* espacio entre los elementos */
+  padding: 40; /* hace un espacio*/
+}
+
+section {
+  padding: 40px; /* espacio interno */
+  text-align: center; /* centra el contenido */
+}
+
+table {
+  width: 100%; /* ocupa todo el ancho */
+  border-collapse: separate; 
+}
+
+
+th,
+td {
+  border: 3px solid rgb(170, 95, 95);
+  padding: 3px; /* espacio interno */
+  top: 25%;
+  
+}
+h2{
+  margin-bottom: 2rem;
+}
+
+
+.imagenes {
+  display: flex; /* pone las imágenes en fila */
+  justify-content: center; /* centra las imágenes */
+  gap: 20px; /* espacio entre imágenes */
+}
+
+.imagenes img {
+  width: 200px; /* tamaño de cada imagen */
+  border-radius: 10px; /* bordes redondeados */
+}
+
+footer {
+  text-align: center; /* centra texto */
+  padding: 20px; /* espacio interno */
+}
+
+p{
+  margin-bottom: 2rem;
+}
+
+th{
+  background-color: #423141e3;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+@media (max-width: 768px) /* hace cuando la pantalla sea ese temano o menor */ {
+  .menu {
+    flex-direction: column; /* menú en vertical */
+  }
+  .imagenes {
+    flex-direction: column; /* imágenes en columna */
+    align-items: center; /* centra las imágenes */
+  }
+  .contenedor {
+    flex-direction: column; /* Se ponen uno arriba del otro en pantallas chicas */
+  }
+  .contenedor p {
+    max-width: 100%;       /* El párrafo ocupa todo el ancho en móvil */
+  }
+  .img{
+    max-width: 100%;       /* El párrafo ocupa todo el ancho en móvil */
+  }
+}
+
