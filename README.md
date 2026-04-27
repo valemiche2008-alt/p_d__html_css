@@ -1,12 +1,8 @@
 # p_d__html_css
-Aquí tienes la documentación en inglés de tu proyecto 👇
-
-
----
 
 📄 Documentation – Landing Page “Rock Band”
 
-🧩 1. General Description
+ 1. General Description
 
 This project is a rock band landing page, built using:
 
@@ -35,7 +31,7 @@ Image gallery
 
 ---
 
-🏗️ 2. HTML Structure
+ 2. HTML Structure
 
 🔹 <!DOCTYPE html>
 
@@ -67,7 +63,7 @@ Contains all visible content.
 
 ---
 
-🌄 Background section
+ Background section
 
 <section class="fondo"></section>
 
@@ -79,7 +75,7 @@ Controlled by JavaScript (zoom + fade effect)
 
 ---
 
-🧭 Header
+Header
 
 <header>
   <h1>ROCK BAND</h1>
@@ -92,14 +88,14 @@ Contains the main title and navigation menu
 
 ---
 
-📌 Menu
+ Menu
 
 <ul class="menu">
 
 Links to sections using #id
 
 
-⚠️ Issue:
+ Issue:
 
 href="#start" does not match id="Start" (case-sensitive)
 
@@ -107,7 +103,7 @@ href="#start" does not match id="Start" (case-sensitive)
 
 ---
 
-🚀 Start Section
+ Start Section
 
 <section id="Start">
 
@@ -117,11 +113,11 @@ Introductory text
 
 ---
 
-🎤 Events Section
+ Events Section
 
 <section id="envents">
 
-⚠️ Typo: should be events
+ Typo: should be events
 
 Contains a table with bands:
 
@@ -139,7 +135,7 @@ Metallica
 
 ---
 
-📖 History Section
+ History Section
 
 <section id="history">
 
@@ -148,7 +144,7 @@ Explains rock evolution
 Includes text and image
 
 
-⚠️ Issue:
+ Issue:
 
 <div class="contendor">
 
@@ -157,7 +153,7 @@ Includes text and image
 
 ---
 
-🖼️ Gallery
+Gallery
 
 <section class="galeria">
 
@@ -167,7 +163,7 @@ Displays images in a row
 
 ---
 
-🦶 Footer
+ Footer
 
 <footer>
 
@@ -177,7 +173,7 @@ Final text of the page
 
 ---
 
-🎨 3. CSS Styles
+ 3. CSS Styles
 
 🔹 Reset
 
@@ -310,7 +306,7 @@ Opacity (fade)
 fondo.style.transform = `scale(...)`
 fondo.style.opacity = ...
 
-👉 Result:
+ Result:
 
 On scroll:
 
@@ -333,32 +329,11 @@ Improves performance
 
 
 
----
 
-⚠️ 5. Issues Found
-
-You should fix:
-
-1. ❌ Start vs start
-
-
-2. ❌ envents → events
-
-
-3. ❌ contendor → contenedor
-
-
-4. ❌ .start class not used
-
-
-5. ❌ padding: 40; → missing unit (px)
-
-
-✅ 6. Conclusion
+ Conclusion
 
 Your project: ✔ Uses semantic HTML
 ✔ Implements Flexbox
 ✔ Has responsive design
 ✔ Includes JavaScript animation
 
-💡 Level: Intermediate (great for learning)
